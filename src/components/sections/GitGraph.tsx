@@ -160,7 +160,7 @@ export default function GitGraph() {
         </g>
 
         {/* HEAD Release Tag */}
-        <g className="g-commit g-head" data-cursor="HEAD → v3.8">
+        <g className="g-commit g-head" data-cursor="HEAD → v4.0">
           <circle className="g-hit" cx="150" cy="505" r="28" fill="transparent" pointerEvents="all" />
           <motion.circle
             className="g-c g-c--acc"
@@ -189,7 +189,7 @@ export default function GitGraph() {
                 fontWeight="600"
                 fill="var(--accent-ink)"
               >
-                v3.8 · deployed
+                v4.0 · deployed
               </text>
             </g>
           </motion.g>

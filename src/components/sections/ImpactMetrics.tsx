@@ -33,7 +33,7 @@ export default function ImpactMetrics() {
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        3.8+ years of engineering commits squashed into metrics.
+        4+ years of engineering commits squashed into metrics.
       </motion.p>
 
       <div className="impact-grid">

@@ -47,7 +47,7 @@ export default function About({ email }: AboutProps) {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              3.8+ years building automated delivery pipelines and robust cloud
+              4+ years building automated delivery pipelines and robust cloud
               infrastructure:{" "}
               <span className="dim">
                 scalable clusters that run, deploys nobody fears.

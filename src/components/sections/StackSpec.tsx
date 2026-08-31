@@ -30,7 +30,7 @@ export default function StackSpec() {
     { no: 2, text: <><span className="k">&nbsp;&nbsp;cloud</span><span className="p">:</span><span className="v">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[aws, azure, gcp]</span></> },
     { no: 3, text: <><span className="k">&nbsp;&nbsp;containers</span><span className="p">:</span><span className="v">&nbsp;&nbsp;&nbsp;&nbsp;[docker, kubernetes, helm]</span></> },
     { no: 4, text: <><span className="k">&nbsp;&nbsp;cicd</span><span className="p">:</span><span className="v">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[gitlab-ci, jenkins, argo-cd, github-actions, gitops]</span></> },
-    { no: 5, text: <><span className="k">&nbsp;&nbsp;iac</span><span className="p">:</span><span className="v">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[terraform]</span></> },
+    { no: 5, text: <><span className="k">&nbsp;&nbsp;iac</span><span className="p">:</span><span className="v">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[terraform, cloudformation]</span></> },
     { no: 6, text: <><span className="k">&nbsp;&nbsp;observability</span><span className="p">:</span><span className="v"> [prometheus, grafana, lgtm-stack, opentelemetry, tempo, cloudwatch]</span></> },
     { no: 7, text: <><span className="k">&nbsp;&nbsp;traffic</span><span className="p">:</span><span className="v">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[traefik, nginx, reverse-proxy, load-balancer, ssl-tls]</span></> },
     { no: 8, text: <><span className="k">&nbsp;&nbsp;security</span><span className="p">:</span><span className="v">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[aws-iam, secrets-manager, azure-key-vault, trivy, sonarqube, prowler]</span></> },
@@ -68,7 +68,7 @@ export default function StackSpec() {
           <div className="stack-stage__copy">
             <span className="stack-stage__label">production toolkit</span>
             <p>
-              Built over 3.8+ years of engineering cloud automation, Kubernetes
+              Built over 4+ years of engineering cloud automation, Kubernetes
               clusters, CI/CD pipelines, and observability.
             </p>
           </div>

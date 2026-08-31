@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
   roleTitle: "DevOps & Cloud Engineer",
   region: "ap-south-1 · Chennai / Karaikal",
   coordinates: "10.9254° N · 79.8380° E",
-  experienceYears: "3.8y+ · since 2020",
+  experienceYears: "4y+ · since 2020",
   uptimeTarget: "99.9%",
   socialLinks: {
     github: "https://github.com/srskumar989",
@@ -23,7 +23,7 @@ export const siteConfig: SiteConfig = {
     { label: "Contact", href: "#contact" }
   ],
   impactStats: [
-    { value: "3.8", unit: "+", label: "Years in cloud & DevOps delivery" },
+    { value: "4", unit: "+", label: "Years in cloud & DevOps delivery" },
     { value: "100", unit: "+", label: "Pipelines & deployments automated" },
     { value: "99.9", unit: "%", label: "Cluster & service uptime target" },
     { value: "3", unit: "+", label: "Cloud platforms (AWS, Azure, GCP)" }
@@ -55,7 +55,7 @@ export const siteConfig: SiteConfig = {
     {
       keyBadge: "orchestrate",
       title: "Kubernetes & Cloud Infrastructure",
-      summary: "Docker, Kubernetes, Helm, Terraform, AWS, Azure, GCP",
+      summary: "Docker, Kubernetes, Helm, Terraform, CloudFormation, AWS, Azure, GCP",
       dataKeys: ["cloud", "containers", "iac"]
     },
     {
