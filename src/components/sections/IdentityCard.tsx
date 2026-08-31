@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, MouseEvent } from "react";
+import Image from "next/image";
 import { motion, useMotionValue, useSpring } from "framer-motion";
 import { siteConfig } from "@/config/site.config";
 
@@ -63,77 +64,65 @@ export default function IdentityCard({ uid, role }: IdentityCardProps) {
       <div
         className="idcard__photo"
         style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
+          position: "relative",
+          aspectRatio: "1 / 1.08",
+          overflow: "hidden",
           background:
-            "radial-gradient(circle at center, var(--surface-hover), var(--bg-2))",
+            "radial-gradient(ellipse at 50% 30%, var(--accent-a10), var(--bg-2) 75%, var(--bg-1) 100%)",
         }}
       >
-        <svg
-          viewBox="0 0 280 280"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          style={{ width: "78%", height: "78%" }}
-        >
-          <defs>
-            <radialGradient id="meshGlow" cx="50%" cy="50%" r="50%">
-              <stop offset="0%" stopColor="var(--accent-a20)" />
-              <stop offset="100%" stopColor="transparent" />
-            </radialGradient>
-          </defs>
-          <circle cx="140" cy="140" r="120" fill="url(#meshGlow)" />
-          <circle
-            cx="140"
-            cy="140"
-            r="105"
-            stroke="var(--line-strong)"
-            strokeWidth="1.5"
-            strokeDasharray="6 6"
-          />
-          <circle
-            cx="140"
-            cy="140"
-            r="85"
-            stroke="var(--accent-a40)"
-            strokeWidth="2"
-          />
-          {/* Hexagonal K8s node */}
-          <polygon
-            points="140,75 195,107 195,173 140,205 85,173 85,107"
-            fill="var(--bg-3)"
-            stroke="var(--accent)"
-            strokeWidth="2.5"
-          />
-          <text
-            x="140"
-            y="152"
-            fontFamily="var(--font-mono)"
-            fontSize="34"
-            fontWeight="700"
-            fill="var(--ink)"
-            textAnchor="middle"
-            letterSpacing="1"
-          >
-            {siteConfig.initials}
-          </text>
-          <text
-            x="140"
-            y="174"
-            fontFamily="var(--font-mono)"
-            fontSize="11"
-            fontWeight="500"
-            fill="var(--accent)"
-            textAnchor="middle"
-            letterSpacing="2"
-          >
-            DEVOPS
-          </text>
-          <circle cx="140" cy="55" r="6" fill="var(--accent-bright)" />
-          <circle cx="215" cy="140" r="5" fill="var(--accent)" />
-          <circle cx="140" cy="225" r="6" fill="var(--accent-bright)" />
-          <circle cx="65" cy="140" r="5" fill="var(--accent)" />
-        </svg>
+        {/* Engineering mesh pattern backdrop */}
+        <div
+          aria-hidden="true"
+          style={{
+            position: "absolute",
+            inset: 0,
+            backgroundImage:
+              "linear-gradient(var(--line-soft) 1px, transparent 1px), linear-gradient(90deg, var(--line-soft) 1px, transparent 1px)",
+            backgroundSize: "24px 24px",
+            opacity: 0.4,
+            pointerEvents: "none",
+          }}
+        />
+
+        {/* Ambient aura glow */}
+        <div
+          aria-hidden="true"
+          style={{
+            position: "absolute",
+            top: "22%",
+            left: "50%",
+            width: "180px",
+            height: "180px",
+            transform: "translate(-50%, -50%)",
+            borderRadius: "50%",
+            background:
+              "radial-gradient(circle, var(--accent-a20) 0%, transparent 70%)",
+            filter: "blur(24px)",
+            pointerEvents: "none",
+          }}
+        />
+
+        {/* Candidate Profile Photo with Seamless Blend */}
+        <Image
+          src="/profile.png"
+          alt="Santhosh Kumar R — DevOps & Cloud Engineer"
+          width={400}
+          height={432}
+          priority
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition: "center 12%",
+            display: "block",
+            position: "relative",
+            zIndex: 1,
+            filter: "contrast(1.02) saturate(1.03)",
+          }}
+        />
+
+        {/* Interactive Holographic Scanline */}
         <span className="idcard__scan" />
       </div>
 

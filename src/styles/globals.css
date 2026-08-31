@@ -608,10 +608,12 @@ body.has-cursor .cursor.is-visible { opacity: 1; }
 .idcard__head { display: flex; justify-content: space-between; align-items: center; padding: 0.85rem 1.1rem; border-bottom: 1px solid var(--line); font-family: var(--font-mono); font-size: 0.64rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint); }
 .idcard__head .on { color: var(--accent); display: inline-flex; align-items: center; gap: 0.4rem; }
 .idcard__head .on::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 8px var(--accent); }
-.idcard__photo { position: relative; aspect-ratio: 1 / 1.02; overflow: hidden; }
+.idcard__photo { position: relative; aspect-ratio: 1 / 1.05; overflow: hidden; }
+.idcard__photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 12%; transition: transform 0.6s var(--ease-out); }
+.idcard:hover .idcard__photo img { transform: scale(1.03); }
 .idcard__photo::after {
-  content: ""; position: absolute; inset: 0;
-  background: linear-gradient(180deg, transparent 55%, var(--photo-fade) 100%);
+  content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none;
+  background: linear-gradient(180deg, transparent 60%, var(--bg-1) 100%);
 }
 .idcard__scan { position: absolute; left: 0; right: 0; top: -20%; height: 18%; z-index: 2; background: linear-gradient(180deg, transparent, var(--accent-a20), transparent); opacity: 0; pointer-events: none; }
 .idcard:hover .idcard__scan { animation: scan 1.4s var(--ease-in-out); }
