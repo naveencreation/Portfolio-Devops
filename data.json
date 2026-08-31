@@ -1,0 +1,148 @@
+{
+  "name": "Santhosh Kumar R",
+  "contact": {
+    "phone": "7708688160",
+    "email": "srskumar989@gmail.com",
+    "location": "Karaikal, India 609607"
+  },
+  "professional_summary": "DevOps Engineer with 3.8+ years of experience in cloud infrastructure automation, CI/CD pipeline development, containerization, and Kubernetes management. Strong expertise in AWS, with working knowledge of Azure and GCP, specializing in Infrastructure as Code using Terraform, Kubernetes administration, Docker, and GitOps practices. Experienced in Linux administration, cloud networking, security, monitoring, and automated deployments. Focused on improving deployment efficiency, infrastructure reliability, scalability, and operational consistency through modern DevOps practices.",
+  "technical_skills": {
+    "cloud_platforms": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "containerization_and_orchestration": [
+      "Docker",
+      "Kubernetes",
+      "Helm"
+    ],
+    "cicd_and_automation": [
+      "GitLab CI",
+      "Jenkins",
+      "Argo CD",
+      "GitHub Actions",
+      "Git",
+      "GitOps",
+      "Bash",
+      "Shell Scripting",
+      "YAML"
+    ],
+    "infrastructure_as_code": [
+      "Terraform"
+    ],
+    "security_and_access_management": [
+      "AWS IAM",
+      "IAM Roles and Policies",
+      "AWS Secrets Manager",
+      "AWS Parameter Store",
+      "Azure Key Vault",
+      "Prowler"
+    ],
+    "ingress_and_traffic_management": [
+      "Traefik",
+      "NGINX",
+      "Reverse Proxy",
+      "Load Balancing",
+      "SSL/TLS Termination"
+    ],
+    "dns_and_networking": [
+      "AWS Route 53",
+      "Cloudflare",
+      "GoDaddy",
+      "DNS",
+      "TCP/IP",
+      "Routing",
+      "Firewalls"
+    ],
+    "monitoring_and_observability": [
+      "Prometheus",
+      "Grafana",
+      "LGTM Stack",
+      "OpenTelemetry",
+      "Tempo",
+      "AWS CloudWatch",
+      "EFK",
+      "ELK"
+    ],
+    "operating_systems_and_dev_tools": [
+      "Linux",
+      "Ubuntu",
+      "Amazon Linux",
+      "Jira",
+      "GitHub",
+      "GitLab"
+    ],
+    "quality_and_security_testing": [
+      "SonarQube",
+      "Trivy",
+      "Unit Testing in CI/CD Pipelines"
+    ],
+    "programming_and_scripting": [
+      "Python",
+      "Bash",
+      "Shell Scripting"
+    ]
+  },
+  "experience": [
+    {
+      "job_title": "DevOps Engineer",
+      "company": "Thapovan Info Systems Pvt. Ltd.",
+      "location": "Chennai, India",
+      "start_date": "Oct 2023",
+      "end_date": "Present",
+      "responsibilities": [
+        "Designed and maintained CI/CD pipelines using GitLab CI and Jenkins, integrating automated testing, SonarQube code quality checks, Docker image builds, and automated deployments.",
+        "Containerized microservices using Docker multi-stage builds and managed image lifecycle and security using Amazon ECR and GitLab Container Registry.",
+        "Managed self-hosted Kubernetes clusters, utilizing Helm for application deployments, ingress configuration, and environment isolation.",
+        "Configured NGINX and Traefik for reverse proxying, load balancing, SSL/TLS termination, and traffic routing across microservices.",
+        "Implemented infrastructure monitoring and observability using Prometheus, Grafana, OpenTelemetry, and Tempo for metrics, application monitoring, and distributed tracing.",
+        "Provisioned and automated cloud infrastructure across AWS and Azure using Terraform, enabling consistent staging and production environments.",
+        "Built Azure infrastructure using Terraform and deployed Node.js applications through automated CI/CD workflows.",
+        "Configured AKS networking, including VNET integration, LoadBalancer, and Ingress, while managing application secrets using Azure Key Vault.",
+        "Developed automation scripts using Bash and Python for infrastructure provisioning, application deployments, health checks, and operational tasks."
+      ]
+    },
+    {
+      "job_title": "Cloud Operations Engineer",
+      "company": "Transtrack Aerospace Pvt. Ltd.",
+      "location": "Chennai, India",
+      "start_date": "Jan 2022",
+      "end_date": "Apr 2023",
+      "responsibilities": [
+        "Administered Linux servers, handling log analysis, package installation, cron job configuration, service management, and basic performance tuning.",
+        "Managed AWS resources including EC2, S3, and IAM for test environments and automated backup workflows.",
+        "Developed Bash scripts to automate deployments, call-flow tests, health checks, and operational activities.",
+        "Used Git and GitLab for version control of scripts and configuration files, improving collaboration and enabling reliable rollback.",
+        "Assisted with Jenkins and GitLab CI pipeline checks and troubleshooting to support build and release workflows.",
+        "Worked with networking fundamentals including DNS, routing, and firewalls, along with monitoring using AWS CloudWatch and Linux tools.",
+        "Performed performance analysis on cloud-hosted services using monitoring tools to identify reliability improvements and optimization opportunities."
+      ]
+    },
+    {
+      "job_title": "Routing Engineer",
+      "company": "LycaTech Services Private Limited",
+      "location": "Chennai, India",
+      "start_date": "Mar 2020",
+      "end_date": "Dec 2021",
+      "responsibilities": [
+        "Optimized call routing to maintain high availability and reliable service connectivity.",
+        "Troubleshot routing and connectivity issues and rerouted traffic using ticketing tools to minimize service downtime.",
+        "Managed Linux systems for service checks, log analysis, troubleshooting, and core service restarts.",
+        "Resolved service desk incidents and coordinated with NOC teams to meet defined operational SLAs.",
+        "Developed practical experience in Shell scripting, TCP/IP, DNS, system routing, monitoring, and incident response.",
+        "Performed system monitoring, service health checks, and incident response activities to maintain service reliability.",
+        "Configured routers, switches, and firewalls for secure site connectivity."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology",
+      "field_of_study": "Electronics and Communication Engineering",
+      "institution": "Perunthalaivar Kamarajar Institute of Engineering",
+      "location": "Nedungadu",
+      "graduation_date": "May 2019"
+    }
+  ]
+}
